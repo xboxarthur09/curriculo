@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - Arthur</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #777;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 1.5em;
+      color: #333;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+
+      section h2 {
+        font-size: 1.2em;
+      }
+
+      ul li {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <img src="eu3.jpg" alt="Foto de Arthur Andrianczik Corcini">
+      <h1>Arthur Andrianczik Corcini</h1>
+      <p>Desenvolvedor Iniciante</p>
+    </header>
+
+    <section>
+      <h2>Informações de Contato</h2>
+      <ul>
+        <li><strong>Email:</strong> arthurcorcini9@gmail.com</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/xboxarthur09" target="_blank">github.com/xboxarthur09</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li><strong>Colégio da Polícia Militar do Paraná</strong> – Ciências da Natureza e suas Tecnologias</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5, Python, JavaScript</li>
+        <li>Git e GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Português: Nativo</li>
+        <li>Inglês: Intermediário</li>
+        <li>Russo: Intermediário</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
